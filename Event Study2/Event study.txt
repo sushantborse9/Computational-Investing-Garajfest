@@ -1,0 +1,18 @@
+an event study profile of a specific "known" event on S&P 500 stocks, and compare its impact on two groups of stocks.
+
+The event is defined as when the actual close of the stock price drops below $5.00, more specifically, when:
+
+    price[t-1] >= 5.0
+    price[t] < 5.0 
+
+an event has occurred on date t. Note that just because the price is below 5 it is not an event for every day that it is below 5, only on the day it first drops below 5.
+
+Evaluate this event for the time period January 1, 2008 to December 31, 2009. Compare the results using two lists of S&P 500 stocks: 1) The stocks that were in the S&P 500 in 2008 (sp5002008.txt), and 2) the stocks that were in the S&P 500 in 2012 (sp5002012.txt). These equity lists are in the directory QSData/Yahoo/Lists.
+
+=========================================================================
+     Is it possible to make money using this event?
+    If it is possible, what investing strategy would you use? Include details of entry (buy) and exit (sell), how many days would you hold?
+    Is this a risky strategy?
+    How much do you expect to make on each trade?
+    How many times do you expect to be able to act on this opportunity each year?
+    Is there some way to reduce the risk? 

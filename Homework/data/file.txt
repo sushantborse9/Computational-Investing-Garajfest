@@ -1,0 +1,5 @@
+Symbol	Description
+C
+GS
+IBM
+H

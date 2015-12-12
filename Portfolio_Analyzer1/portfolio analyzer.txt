@@ -1,0 +1,21 @@
+work remaining--need to save ouput data as well as each day varitaion data in a csv
+
+Write a Python function that can simulate and assess the performance of a 4 stock portfolio.
+
+Inputs to the function include:
+
+    Start date
+    End date
+    Symbols for for equities (e.g., GOOG, AAPL, GLD, XOM)
+    Allocations to the equities at the beginning of the simulation (e.g., 0.2, 0.3, 0.4, 0.1)
+
+The function should return:
+
+    Standard deviation of daily returns of the total portfolio
+    Average daily return of the total portfolio
+    Sharpe ratio (Always assume you have 252 trading days in an year. And risk free rate = 0) of the total portfolio
+    Cumulative return of the total portfolio
+
+An example of how you might call the function in your program:
+
+vol, daily_ret, sharpe, cum_ret = simulate(startdate, enddate, ['GOOG','AAPL','GLD','XOM'], [0.2,0.3,0.4,0.1])
